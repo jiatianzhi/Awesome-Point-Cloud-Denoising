@@ -1,55 +1,55 @@
-# Point Cloud Denoising
+#### 2018
 
-# 2021
+- <a href="https://arxiv.org/pdf/1901.01060.pdf">[PointCleanNet]</a> PointCleanNet: Learning to Denoise and Remove Outliers from Dense Point Clouds <a href="https://github.com/mrakotosaon/pointcleannet">[**`PyTorch`**]</a> ⭐
 
-[[ICCV](https://arxiv.org/abs/2107.10981)] Score-Based Point Cloud Denoising. [**`Denoising`**] √
+- <a href="https://arxiv.org/pdf/1804.10831.pdf">[PDF]</a> Fast 3D Point Cloud Denoising via Bipartite Graph Approximation & Total Variation [**`code`**]
 
-[[CVPR](https://arxiv.org/abs/2103.16671)] DeCo: Denoise and Contrast for Category Agnostic Shape Completion. [[code](https://github.com/antoalli/Deco)] [**`Completion`**] 
+- <a href="https://arxiv.org/pdf/1807.00253.pdf">[PDF]</a> Weighted Multi-projection: 3D Point Cloud Denoising with Estimated Tangent Planes [**`code`**] (Chaojing Duan)
 
+- <a href="https://arxiv.org/pdf/1812.07711.pdf">[PDF]</a> 3D Point Cloud Denoising via Bipartite Graph Approximation and Reweighted Graph Laplacian [**`code`**]
 
+- <a href="https://arxiv.org/pdf/1912.03874.pdf">[PDF]</a> CNN-based Lidar Point Cloud De-Noising in Adverse Weather <a href="https://github.com/rheinzler/PointCloudDeNoising">[**`code`**]</a>
 
-# 2020
+- [PointASNL] PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks [**`code`**]
 
-[[ECCV](https://arxiv.org/abs/2007.02578)] Learning Graph-Convolutional Representations for Point Cloud Denoising. [**`Denoising`**] √
+#### 2019
 
-[[ACM MM](https://arxiv.org/pdf/2007.13551.pdf)] Differentiable Manifold Reconstruction for Point Cloud Denoising. [[pytorch](https://github.com/luost26/DMRDenoise)] [**`Denoising`**] √
+- <a href="https://openaccess.thecvf.com/content_ICCV_2019/papers/Hermosilla_Total_Denoising_Unsupervised_Learning_of_3D_Point_Cloud_Cleaning_ICCV_2019_paper.pdf">[ICCV-19-TotalDenoising]</a> Total Denoising: Unsupervised Learning of 3D Point Cloud Cleaning <a href="https://github.com/phermosilla/TotalDenoising">[**`TensorFlow`**]</a> ⭐
 
-[[arXiv](https://arxiv.org/pdf/2003.06631.pdf)] Non-Local Part-Aware Point Cloud Denoising. [**`oth.`**] 
+- <a href="https://arxiv.org/pdf/1812.11017.pdf">[ICCV-19-DUP-Net]</a> DUP-Net: Denoiser and Upsampler Network for 3D Adversarial Point Clouds Defense <a href="https://github.com/RyanHangZhou/tensorflow-DUP-Net">[**`TensorFlow`**]</a>
 
-**[2020.01]** Feature Graph Learning for 3D Point Cloud Denoising  | [`[pdf]`](https://arxiv.org/pdf/1907.09138.pdf)
+- <a href="https://arxiv.org/pdf/1904.04427.pdf">[ICASSP-19-NPD]</a> 3D Point Cloud Denoising via Deep Neural Network based Local Surface Estimation <a href="https://github.com/chaojingduan/Neural-Projection">[**`PyTorch`**]</a> (Chaojing Duan)
 
-**[2020.04]** [Deep Manifold Prior] | [`[pdf]`](https://arxiv.org/pdf/2004.04242.pdf)
+- <a href="https://arxiv.org/pdf/1803.07252.pdf">[PDF]</a> 3D Point Cloud Denoising Using Graph Laplacian Regularization of a Low Dimensional Manifold Model [**`code`**] ⭐
 
-**[2020.10]** Dynamic Point Cloud Denoising via Manifold-to-Manifold Distance | [`[pdf]`](https://arxiv.org/pdf/2003.08355.pdf) 
+- <a href="https://arxiv.org/pdf/1906.04173.pdf">[DSS]</a> Differentiable Surface Splatting for Point-based Geometry Processing <a href="https://github.com/yifita/DSS">[**`PyTorch`**]</a>
 
+#### 2020
 
+- <a href="https://arxiv.org/pdf/2007.02578.pdf">[ECCV-20-GPDNet]</a> Learning Graph-Convolutional Representations for Point Cloud Denoising <a href="https://github.com/diegovalsesia/GPDNet">[**`Tensorflow`**]</a> ⭐
 
-# 2019
+- <a href="https://arxiv.org/pdf/2003.06631.pdf">[PDF]</a> Non-Local Part-Aware Point Cloud Denoising [**`code`**]
 
-[[ICCV](http://openaccess.thecvf.com/content_ICCV_2019/papers/Hermosilla_Total_Denoising_Unsupervised_Learning_of_3D_Point_Cloud_Cleaning_ICCV_2019_paper.pdf)] Total Denoising: Unsupervised Learning of 3D Point Cloud Cleaning. [[tensorflow](https://github.com/phermosilla/TotalDenoising)] [**`oth.`**] √
+- <a href="https://arxiv.org/pdf/2007.13551.pdf">[ACMMM-20-DMRDenoise]</a> Differentiable Manifold Reconstruction for Point Cloud Denoising <a href="https://github.com/luost26/DMRDenoise">[**`PyTorch`**]</a> ⭐ (Shitong Luo)
 
-[[ICCV](https://arxiv.org/abs/1812.11017)] DUP-Net: Denoiser and Upsampler Network for 3D Adversarial Point Clouds Defense. [**`oth.`**] 
+- <a href="https://arxiv.org/pdf/1907.09138.pdf">[PDF]</a> Feature Graph Learning for 3D Point Cloud Denoising [**`code`**] (HuWei)
 
-[[ICASSP](https://arxiv.org/abs/1904.04427)] 3D Point Cloud Denoising via Deep Neural Network based Local Surface Estimation. [[code](https://github.com/chaojingduan/Neural-Projection)] [**`oth.`**]
+- <a href="https://arxiv.org/pdf/2004.04242.pdf">[PDF]</a> Deep Manifold Prior [**`code`**]
 
-**[2019.04]** 3D Point Cloud Denoising Using Graph Laplacian Regularization of a Low Dimensional Manifold Model | [`[pdf]`](https://arxiv.org/pdf/1803.07252.pdf)
+- <a href="https://arxiv.org/pdf/2003.08355.pdf">[PDF]</a> Dynamic Point Cloud Denoising via Manifold-to-Manifold Distance [**`code`**] (HuWei)
 
-**[2019.09]** **[DSS]** Differentiable Surface Splatting for Point-based Geometry Processing |[`[pdf]`](https://arxiv.org/pdf/1906.04173.pdf) [`[official code]`](https://github.com/yifita/DSS)
+#### 2021
 
+- <a href="https://arxiv.org/pdf/2103.16671.pdf">[CVPR-21-DeCo]</a> DeCo: Denoise and Contrast for Category Agnostic Shape Completion <a href="https://github.com/antoalli/Deco">[**`PyTorch`**]</a>
 
+- <a href="https://arxiv.org/pdf/2107.10981.pdf">[ICCV-21-score-denoise]</a> Score-Based Point Cloud Denoising (Learning Implicit Gradient Fields for Point Cloud Denoising) <a href="https://github.com/luost26/score-denoise">[**`PyTorch`**]</a> ⭐ (Shitong Luo)
 
-# 2018
+- <a href="https://arxiv.org/pdf/2112.11271.pdf">[PDF]</a> High-Fidelity Point Cloud Completion with Low-Resolution Recovery and Noise-Aware Upsampling [**`code`**]
 
- [[arXiv](https://arxiv.org/abs/1901.01060)] POINTCLEANNET: Learning to Denoise and Remove Outliers from Dense Point Clouds. [[pytorch](https://github.com/mrakotosaon/pointcleannet)] [**`oth.`**] 
+#### 2022
 
-**[2018.04]** Fast 3D Point Cloud Denoising via Bipartite Graph Approximation & Total Variation | **[IEEE' 18]** [`[pdf]`](https://arxiv.org/pdf/1804.10831.pdf)
+- <a href="https://arxiv.org/pdf/2203.05940.pdf">[PD-Flow]</a> PD-Flow: A Point Cloud Denoising Framework with Normalizing Flows [**`code`**] ⭐
 
-**[2018.07]** Weighted Multi-projection: 3D Point Cloud Denoising with Estimated Tangent Planes | [`[pdf]`](https://arxiv.org/pdf/1807.00253.pdf)
+#### 待整理
 
-**[2018.12]** 3D Point Cloud Denoising via Bipartite Graph Approximation and Reweighted Graph Laplacian | [`[pdf]`](https://arxiv.org/pdf/1812.07711.pdf)
-
-
-
- [[arXiv](https://arxiv.org/abs/1912.03874)] CNN-based Lidar Point Cloud De-Noising in Adverse Weather. [[code](https://github.com/rheinzler/PointCloudDeNoising)]
-
-PointASNL: Robust Point Clouds Processing using  Nonlocal Neural Networks 
+- [RPCA] Point cloud denoising via moving rpca [**`code`**]
